@@ -1,0 +1,87 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #e4e4e4;
+  background-color: rgb(33, 34, 33);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  margin: 0;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  line-height: 7vh;
+}
+.button_style{
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 60px;
+  left: 0px;
+}
+.button_style button{
+  width: 80%;
+  margin: 10%;
+  padding: 10px 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 20px;
+  text-decoration:none;
+  color: black;
+  border: 0px;
+}
+.button_style button:hover{
+  background-color: pink;
+  color: black;
+}
+.time{
+  width: 100%;
+  margin-top: 20px;
+}
+.time p{
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  color: #ffc0cb;
+}
+.timeClock{
+  margin-top: -60px;
+}
+.temporary{
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+.progress-value-content{
+  color: rgb(33, 34, 33) !important;
+}
+.progressBar{
+  width: 80%;
+  margin: 10%;
+}
+
+
+
+
